@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Elen Felicia </title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('4871703.jpg'); /* Ganti gambar latar*/
+            background-size: cover;
+            background-position: center;
+            color: palevioletred;
+            text-align: center;
+            padding: 20px;
+            animation: fadeIn 2s;
+        }
+
+        h1 {
+            color: #ff6b6b;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 10px 0;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        .heart {
+            font-size: 60px;
+            color: #ff6b6b;
+            animation: heartbeat 1.5s infinite;
+        }
+
+        
+
+        .surat {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 2px dashed #ff6b6b;
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 1em;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .surat::before {
+            content: "💌";
+            position: center;
+            top: -30px;
+            left: 20px;
+            font-size: 50px;
+        }
+
+        .surat h2 {
+            color: #ff6b6b;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
+        .rose-icon {
+            font-size: 40px;
+            color: #ff6b6b;
+            margin: 10px 0;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Happy BirthDay Elen Feliciaaaa!!!!🎉</h1>
+    <p>Hari ini hari dimana kamu bertambah usia dan menjadi hari spesial buat kamu  </p>
+    <p></p></p>
+    <p></p>
+    <p class="heart">❤️</p>
+    <p></p>
+
+    <div class="rose-icon">🌹</div>
+    
+    <img src="image/WhatsApp Image 2024-10-26 at 23.14.04.jpeg" alt="foto dari galeri" style="width:195px;">/>
+
+    <div class="surat">
+        <h2>Sedikit Ucapan dari aku </h2>
+        <p>Lennn</p>
+        <p>pertama tama aku mau ucapin sama kamu selamat ulang yang ke-18 semoga dengan bertambahnya umur kamu,kamu bisa capai apa yang kamu impikan bisa tercapai,dan juga nanti pas kamu udh kulaih bisa cepat nyelesain kuliah kamu.</p>
+        <p>aku juga senang bisa kenal dengan kamu dimana pas awal awal kita main bareng kamu orangnya seperti limbad untungnya keluar satu atau dua kata dari kamu tapi aku dulu udh senang bisa ngobrol sama kamu mungkin itu menjadi moment yang seru buat aku dan moment yang ga bisa di ulang lagi tapi aku udh bersyukur udh bisa kenal dengan kamu.</p>
+        <p>Salam </p>
+        <p>Dendy </p>
+    </div>
+
+    <!-- Audio element for autoplay music -->
+    <iframe width="1" height="1" src="https://youtu.be/9jz3fWYwMuc?si=T7zZeVEegxtpYB-o/C_-z0pcyAq-?autoplay=1" 
+        frameborder="0" allow="autoplay loop" style="opacity: 0;"></iframe>
+
+
+</body>
+</html>
